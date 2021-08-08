@@ -119,3 +119,15 @@ label {
     font-size: 2rem;
     padding: 0.6rem;
 }
+
+@media screen and (max-width: 414px) {
+    
+    .return-table {
+        margin-bottom: 8rem;
+    }
+
+    .return-table td, th {
+        padding: 0.4rem;
+    }
+}
+
