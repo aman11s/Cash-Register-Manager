@@ -15,8 +15,6 @@ returnTable.style.display = "none";
 returnChange.style.display = "none";
 checkButton.style.display = "none";
 
-
-
 nextButton.addEventListener("click", () => {
     if (billAmount.value > 0) {
         nextButton.style.display = "none";
