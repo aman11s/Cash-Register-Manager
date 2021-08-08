@@ -26,3 +26,24 @@ nav h1 {
     padding: 1rem;
     font-size: 2rem;
 }
+
+.description {
+    margin: 2rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+label {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+#bill-amount {
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    margin: 0.5rem;
+    padding: 0.8rem;
+    font-size: 1rem;
+    box-shadow: -3px 2px 5px #6b7365, 3px 2px 5px #6b7365;
+    border: none;
+}
