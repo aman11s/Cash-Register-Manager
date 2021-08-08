@@ -100,3 +100,22 @@ label {
 .no-of-notes {
     background-color: white;
 }
+
+.list-item-inline {
+    display: inline-block;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    box-shadow: 2px 1px 10px rgb(56, 62, 48);
+}
+
+.footer i {
+    color: black;
+    font-size: 2rem;
+    padding: 0.6rem;
+}
