@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,28 @@
     <link rel="stylesheet" href="style.css">
     <title>Cash Register Manager</title>
 </head>
+
 <body>
     <header>
         <nav>
             <h1>Cash Register Manager 💰</h1>
         </nav>
     </header>
+
+    <main>
+        <p class="description">Enter the Bill amount and cash given by the customer and know the minimum number of notes
+            to return</p>
+
+        <div id="bill-div">
+            <label for="bill-amount">Bill Amount:</label>
+            <input id="bill-amount" type="number" />
+        </div>
+
+        <button class="btn" id="next-btn">Next</button>
+
+    </main>
+
 </body>
 <script src="/index.js"></script>
+
 </html>
