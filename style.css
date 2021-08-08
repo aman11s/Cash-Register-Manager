@@ -78,6 +78,25 @@ label {
     margin: 1rem;
     margin-top: 0;
     font-weight: bold;
-    font-size: 1.2rem;
-    
+    font-size: 1.2rem; 
+}
+
+#change {
+    color: #268626;
+}
+
+.return-table {
+    background-color: var(--primary-color);
+    border-collapse: collapse;
+    box-shadow: 2px 2px 15px #9aa494;
+    margin: 1rem 0;
+}
+
+.return-table td, th {
+    border: 2px solid black;
+    padding: 1rem;
+}
+
+.no-of-notes {
+    background-color: white;
 }
