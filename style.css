@@ -90,6 +90,7 @@ label {
     border-collapse: collapse;
     box-shadow: 2px 2px 15px #9aa494;
     margin: 1rem 0;
+    margin-bottom: 8em;
 }
 
 .return-table td, th {
