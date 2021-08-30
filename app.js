@@ -15,6 +15,15 @@ returnTable.style.display = "none";
 returnChange.style.display = "none";
 checkButton.style.display = "none";
 
+function errorHandler() {
+    let msg = "Enter a valid amount";
+    if (billAmount.value < 0) {
+        showMessage(msg);
+    } else if (cashGiven.value < 0) {
+        showMessage(msg);
+    }
+}
+
 nextButton.addEventListener("click", () => {
     if (billAmount.value > 0) {
         nextButton.style.display = "none";
@@ -43,6 +52,8 @@ checkButton.addEventListener("click", () => {
     } else {
         showMessage("Give more cash!!");
     }
+
+    errorHandler();
 })
 
 function calculateReturnCash(returnAmount) {
