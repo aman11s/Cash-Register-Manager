@@ -16,22 +16,25 @@ returnChange.style.display = "none";
 checkButton.style.display = "none";
 
 function errorHandler() {
-    let msg = "Enter a valid amount";
+    let msg = "Please enter positive values!!";
     if (billAmount.value < 0) {
         showMessage(msg);
     } else if (cashGiven.value < 0) {
         showMessage(msg);
     }
+    if(billAmount.value === "") {
+        showMessage("Please enter bill amount")
+    }
 }
 
 nextButton.addEventListener("click", () => {
     if (billAmount.value > 0) {
+        message.style.display = "none";
         nextButton.style.display = "none";
         cashDiv.style.display = "block";
         checkButton.style.display = "inline";
-    } else {
-        showMessage("Enter a valid amount");
     }
+    errorHandler();
 })
 
 checkButton.addEventListener("click", () => {
